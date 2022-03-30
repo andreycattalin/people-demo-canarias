@@ -30,3 +30,19 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.card .social-links img {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links a:hover img {
+    background-color: rgb(242, 138, 211);
+}
