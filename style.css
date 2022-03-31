@@ -35,7 +35,7 @@
     justify-content: space-between;
 }
 
-.card .social-links img {
+.card .social-links img, footer .social-links img {
     width: 24px;
     height: 24px;
     padding: 10px;
@@ -128,4 +128,29 @@ nav {
 
 .card:hover {
     box-shadow: 5px 5px 15px 5px #0000000f;   
+}
+
+footer {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+footer img {
+    height: 30px;
+    width: auto;
+}
+
+footer .menu-links {
+    padding: 20px;
+}
+
+.separator {
+    border-top: 1px solid rgba(149, 155, 172, 0.792);
+    margin-top: 20px;
+}
+
+.separator p {
+    font-size: 13px;
+    color: rgb(114, 114, 126);
 }
